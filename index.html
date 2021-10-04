@@ -4,21 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Links -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./assets/style.css"/>
     <title>Work Day Scheduler</title>
-  </head>
+  
+  <!-- Header -->
+</head>
 
-  <body>
+<body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p class="lead">A calendar app for scheduling your work day!</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
 
       
-      <!-- Timeblocks go here -->
+      <!-- Time/Date-->
+
       <div class = "row time-block">
           <div class = "col-2 hour">8 AM</div>
           <div class = "col-9 taskBin" id = "task-8">
@@ -108,8 +114,11 @@
           <button class = "col 1 saveBtn" id="save-btn">
             <i class="fa fa-archive"></i>
           </button>
+          
       </div>
     </div>
+
+    <!-- Scripts -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

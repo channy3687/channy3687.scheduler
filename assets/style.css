@@ -1,5 +1,4 @@
 body {
-    /* done */
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
@@ -9,7 +8,7 @@ body {
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
+    color: black;
     border-left: 1px solid black;
     padding: 10px;
   }
@@ -19,7 +18,6 @@ body {
   }
   
   .jumbotron {
-    /* done */
     text-align: center;
     background-color: transparent;
     color: black;
@@ -27,58 +25,50 @@ body {
     border-bottom: 10px solid black;
   }
   
-  /* .description{
-    white-space: pre-wrap;
-  } */
+  /* Date/Time */
   
   .time-block{
-    /* done */
     text-align: center;
     border-radius: 15px;
   }
   
   .row {
-    /* Done */
     height: 80px;
-    border-top: 1px solid white;;
+    border-top: 1px solid whitesmoke;;
   }
   
   .hour {
-     /* done */
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    background-color: whitesmoke;
+    color: black;
+    border-top: 1px dashed black;
   }
   
   .past {
-    /* done */
-    background-color: #d3d3d3;
+    background-color: lightgrey;
     color: white;
   }
   
   .present {
-    /* done */
-    background-color: #ff6961;
+    background-color: turquoise;
     color: white;
   }
   
   .future {
-  /* done */
-    background-color: #77dd77;
+    background-color: lightgreen;
     color: black;
   }
   
+  /* Buttons */
+
   .saveBtn {
-    /* done */
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color: lightblue;
     color: white;
   }
   
   .saveBtn i:hover {
-    /* done */
     font-size: 20px;
     transition: all .3s ease-in-out;
   }

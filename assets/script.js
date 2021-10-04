@@ -26,7 +26,8 @@ var printTasks = function(){
 var Today = (moment().format("MMMM D, YYYY"))
     $("#currentDay").text(Today);
 
-//color code hours bins
+//color code
+
 var hourAudit =function(){
     var currentHour = moment().hour() 
 
@@ -43,8 +44,8 @@ var hourAudit =function(){
 }
 
 //Task update with click
+
 $(".taskBin").on("click", "p", function(){
-    // console.log("<p> was clicked");
     var text =$(this)
       .text()
       .trim();
@@ -58,13 +59,11 @@ $(".taskBin").on("click", "p", function(){
 
   //Task needs to be updated
 $(".taskBin").on("blur", "textarea", function() {
-  //get the textareas; current value/text
     var text = $(this)
       .val()
       .trim();
-    // console.log(text)
 
-    //recreate p element
+    //p element
     var taskP = $("<p>")
       .addClass("taskItem")
       .text(text);
